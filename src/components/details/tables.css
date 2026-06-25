@@ -1,0 +1,51 @@
+.data-table-wrap {
+  overflow-x: auto;
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.82rem;
+  white-space: nowrap;
+}
+
+.data-table th,
+.data-table td {
+  padding: 0.4rem 0.6rem;
+  border-bottom: 1px solid var(--border);
+  text-align: right;
+}
+
+.data-table th:first-child,
+.data-table td:first-child {
+  text-align: left;
+}
+
+.data-table thead th {
+  background: var(--bg-subtle);
+  position: sticky;
+  top: 0;
+}
+
+.data-table__row--highlight {
+  background: #fff7e6;
+  font-weight: 700;
+}
+
+.data-table__note {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  margin-top: 0.5rem;
+}
+
+.data-table__year-select {
+  display: inline-block;
+  margin-bottom: 0.6rem;
+  font-size: 0.85rem;
+}
+
+.data-table__year-select select {
+  padding: 0.3rem 0.5rem;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+}

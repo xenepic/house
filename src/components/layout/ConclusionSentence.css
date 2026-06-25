@@ -1,0 +1,16 @@
+.conclusion-sentence {
+  font-size: 1.05rem;
+  line-height: 1.6;
+  background: var(--bg-subtle);
+  border-radius: 8px;
+  padding: 0.9rem 1.1rem;
+  margin: 1rem 0;
+}
+
+.conclusion-sentence--good {
+  color: #1a7f37;
+}
+
+.conclusion-sentence--bad {
+  color: #cf222e;
+}

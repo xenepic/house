@@ -1,0 +1,30 @@
+:root {
+  --text-strong: #1c1c1f;
+  --text-muted: #6b6375;
+  --border: #e2e0e6;
+  --bg-subtle: #f6f5f8;
+  --accent: #7c3aed;
+  --accent-dark: #5b21b6;
+
+  font: 16px/1.55 system-ui, 'Segoe UI', Roboto, sans-serif;
+  color: var(--text-strong);
+  background: #fafafa;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 700;
+}
+
+#root {
+  min-height: 100svh;
+}

@@ -1,0 +1,23 @@
+.result-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.7rem 1rem;
+  margin: 0;
+}
+
+.result-grid__item dt {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}
+
+.result-grid__item dd {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+@media (max-width: 600px) {
+  .result-grid {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,13 @@
+.card {
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 1rem 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.card__title {
+  font-size: 0.95rem;
+  margin: 0 0 0.6rem;
+  color: var(--accent-dark);
+}

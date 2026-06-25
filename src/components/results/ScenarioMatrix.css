@@ -1,0 +1,36 @@
+.scenario-matrix-wrap {
+  overflow-x: auto;
+}
+
+.scenario-matrix {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 0.82rem;
+}
+
+.scenario-matrix th,
+.scenario-matrix td {
+  padding: 0.45rem 0.6rem;
+  text-align: center;
+  border: 1px solid var(--border);
+  white-space: nowrap;
+}
+
+.scenario-matrix thead th {
+  background: var(--bg-subtle);
+}
+
+.scenario-matrix tbody th {
+  background: var(--bg-subtle);
+  text-align: left;
+}
+
+.scenario-matrix__cheaper {
+  font-weight: 700;
+}
+
+.scenario-matrix__note {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  margin-top: 0.5rem;
+}

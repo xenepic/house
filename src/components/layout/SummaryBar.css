@@ -1,0 +1,43 @@
+.summary-bar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: space-around;
+  background: #fff;
+  border-bottom: 1px solid var(--border);
+  padding: 0.75rem 1rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+}
+
+.summary-bar__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 120px;
+}
+
+.summary-bar__label {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}
+
+.summary-bar__value {
+  font-size: 1.15rem;
+  font-weight: 700;
+}
+
+.summary-bar__item--primary .summary-bar__value {
+  font-size: 1.5rem;
+  color: var(--accent-dark);
+}
+
+.summary-bar__value--good {
+  color: #1a7f37;
+}
+
+.summary-bar__value--bad {
+  color: #cf222e;
+}

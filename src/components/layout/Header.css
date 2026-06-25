@@ -1,0 +1,26 @@
+.app-header {
+  padding: 1rem 1rem 0.5rem;
+}
+
+.app-header__row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.app-header h1 {
+  font-size: 1.3rem;
+  margin: 0 0 0.4rem;
+}
+
+.app-header__badge {
+  display: inline-block;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  background: var(--bg-subtle);
+  border-radius: 999px;
+  padding: 0.3rem 0.8rem;
+  margin: 0;
+}

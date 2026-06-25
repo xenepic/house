@@ -1,0 +1,26 @@
+.input-form__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.75rem;
+}
+
+.input-form__header h2 {
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+.input-form__reset {
+  font-size: 0.8rem;
+  background: none;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 0.35rem 0.7rem;
+  cursor: pointer;
+  color: var(--text-muted);
+}
+
+.input-form__reset:hover {
+  background: var(--bg-subtle);
+}
+
