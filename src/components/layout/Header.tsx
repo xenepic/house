@@ -9,7 +9,7 @@ export function Header() {
         <ShareLinkButton />
       </div>
       <p className="app-header__badge">
-        入力内容はこの端末のブラウザ内にのみ保存され、外部サーバーに送信されることはありません。
+        入力内容（金額データ）は外部に送信されません。匿名のアクセス解析（Vercel Analytics）を使用しています。
       </p>
     </div>
   )
