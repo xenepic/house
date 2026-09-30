@@ -24,3 +24,11 @@
   margin: 1.5rem 0 1rem;
   line-height: 1.5;
 }
+
+.app-footer__portal {
+  margin: 0.5rem 0 0;
+}
+
+.app-footer__portal a {
+  color: inherit;
+}

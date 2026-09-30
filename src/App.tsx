@@ -31,6 +31,11 @@ function App() {
       </main>
       <footer className="app-footer">
         このツールは簡易的なシミュレーションです。税務・法務上の正式な助言ではありません。実際の購入・売却の判断は専門家にご相談ください。
+        <p className="app-footer__portal">
+          <a href="https://shiodamari.vercel.app/" target="_blank" rel="noopener noreferrer">
+            ひとでの潮だまり
+          </a>
+        </p>
       </footer>
     </SimulationProvider>
   )
